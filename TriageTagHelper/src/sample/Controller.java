@@ -26,6 +26,7 @@ public class Controller {
     public void handlefacilitiesButton(){
         tagLabel.setText("facilities, MPK, triage");
     }
+
     public void handleidmButton(){
         tagLabel.setText("Identity Management, Identity Management - XXXXX");
     }

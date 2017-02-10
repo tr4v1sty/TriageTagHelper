@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="TriageTagHelper:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/TriageTagHelper_jar</output-path>
+    <root id="archive" name="TriageTagHelper.jar">
+      <element id="module-output" name="TriageTagHelper" />
+    </root>
+  </artifact>
+</component>
