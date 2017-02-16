@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
 <?import javafx.geometry.*?>
 <?import javafx.scene.control.*?>
 <?import java.lang.*?>
@@ -49,12 +51,12 @@
          <children>
             <Button fx:id="secDeskButton" mnemonicParsing="false" onAction="#handlesecDeskButton" text="Security Desk" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
             <Button fx:id="chcHDbutton" mnemonicParsing="false" onAction="#handlechcHDbutton" text="CHC-HD" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
-            <Button mnemonicParsing="false" text="Button" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" text="Button" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Button fx:id="deploymentButton" mnemonicParsing="false" onAction="#handledeploymentButton" text="Deployment" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Button fx:id="salesAppsButton" mnemonicParsing="false" onAction="#handlesalesAppsButton" text="salesapps" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+            <Button fx:id="corpInfraOpsButton" mnemonicParsing="false" onAction="#handleCorpInfraOpsButton" text="CorpInfra Ops" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+            <Button fx:id="gstButton" mnemonicParsing="false" onAction="#handlegstButton" text="Printer Support" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Button fx:id="reverseLogistics" mnemonicParsing="false" onAction="#handlereverseLogisticsButton" text="Reverse Logistics" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
+            <Button fx:id="tableauButton" mnemonicParsing="false" onAction="#handletableauButton" text="Tableau" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" />
             <Button fx:id="idmButton" mnemonicParsing="false" onAction="#handleidmButton" text="Identity Mgmt." GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
             <Button fx:id="facilitiesButton" mnemonicParsing="false" onAction="#handlefacilitiesButton" text="Facilities" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" />
             <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
@@ -65,8 +67,8 @@
             </Button>
             <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
             <Button mnemonicParsing="false" text="Button" GridPane.halignment="CENTER" GridPane.rowIndex="4" />
-            <Button mnemonicParsing="false" text="Button" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
-            <Button mnemonicParsing="false" prefHeight="25.0" prefWidth="90.0" text="Button" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+            <Button fx:id="avvcButton" mnemonicParsing="false" onAction="#handleavvcButton" text="AV-VC" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
+            <Button fx:id="itAppsButton" mnemonicParsing="false" onAction="#handleitAppsButton" prefHeight="53.0" prefWidth="90.0" text="dropbox, zoho, quip" textAlignment="CENTER" wrapText="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" />
          </children>
       </GridPane>
    </children>
